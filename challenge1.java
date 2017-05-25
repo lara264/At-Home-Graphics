@@ -1,4 +1,4 @@
-package Graphics;
+ 
 import java.awt.*;
 
 import javax.swing.JFrame;
@@ -28,9 +28,9 @@ public class challenge1 extends JPanel{
 		
 		g.setColor(Color.RED);
 		
-		g.fillOval(100, 100, 5, 5);
-		g.fillOval(400, 221, 5, 5);
-		g.fillOval(500, 300, 5, 5);
+		//g.fillOval(100, 100, 5, 5);
+		//g.fillOval(400, 221, 5, 5);
+		//g.fillOval(500, 300, 5, 5);
 		
 		
 		g.setColor(getRandomColor());

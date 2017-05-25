@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=g3()
+comment1.params=
+comment1.target=java.awt.Color\ getRandomColor()
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=arrrgs
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ loopColors\ is\ broken\ \r\n\tpublic\ void\ loopColors(Graphics\ g,\ int\ x,\ int\ upToX,\ int\ y,\ int\ downToY)\ {\r\n\t\tg.setColor(getRandomColor());\r\n\t\t\r\n\t\tfor(int\ i\ \=\ x;\ i\ <\ upToX;\ i++)\ {\r\n\t\t\tfor(int\ j\ \=\ y;\ y\ <\ downToY;\ j++)\ {\r\n\t\t\t\tint[]\ xA\ \=\ {i};\r\n\t\t\t\tint[]\ yA\ \=\ {j};\r\n\t\t\t\t\r\n\t\t\t\tg.drawLine(x,\ y,\ i,\ j);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n
+numComments=4
